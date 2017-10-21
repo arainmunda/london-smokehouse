@@ -2,14 +2,46 @@
 
 header {
     height: 168px;
+    margin: 0 10%;
     padding: 25px 0;
     text-shadow: 0 0 5px rgba(0,0,0,.25);
+    position: relative;
     > img {
         width: 120px;
         margin: 0 auto;
         display: block;
         justify-content: center;
         align-items: center;
+    }
+    .social {
+        position: absolute;
+        top: 0;
+        right: 16px;
+        display: flex;
+        flex-direction: row;
+        li {
+            margin-left: 16px;
+            list-style: none;
+            a {
+                width: 24px;
+                height: 0;
+                padding-top: 24px;
+                font-size: 1.5em;
+                color: $chalk-white;
+                display: block;
+                overflow: hidden;
+                &:visited {
+                    color: $chalk-white;
+                }
+                &:hover, &:focus {
+                    opacity: 0.8;
+                }
+                &::before {
+                    position: absolute;
+                    top: 0;
+                }
+            }
+        }
     }
     > nav {
         margin-top: -90px;

@@ -97,7 +97,8 @@ body {
   padding: 16px; }
 
 main {
-  background-color: #1a1a1a; }
+  background-color: #1a1a1a;
+  position: relative; }
 
 h1, h2 {
   font-family: "Open Sans Bold", Helvetica, sans-serif;

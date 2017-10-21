@@ -15,10 +15,20 @@
         color: $chalk-white;
     }
     h1 {
-        font-size: 4em;
+        font-size: 5em;
         margin: 0 8px;
     }
     h2 {
-        font-size: 1.5em;
+        font-size: 2em;
+    }
+    a {
+        color: $chalk-white;
+        text-decoration: none;
+        &:visited {
+            color: $chalk-white;
+        }
+        &:hover, &:focus {
+            opacity: 0.8;
+        }
     }
 }
