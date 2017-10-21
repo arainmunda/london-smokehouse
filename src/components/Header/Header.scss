@@ -1,0 +1,40 @@
+@import '../../variables';
+
+header {
+    > img {
+        width: 150px;
+        margin: 0 auto;
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    > nav {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        a {
+            color: $nav-link-color;
+            text-decoration: none;
+            text-transform: uppercase;
+            &:visited {
+                color: $nav-link-color;
+            }
+            &:hover, &:focus {
+                color: $nav-link-color-hover;
+            }
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            &:first-of-type {
+                margin-right: 190px;
+            }
+            li {
+                list-style: none;
+            }
+        }
+    }
+}

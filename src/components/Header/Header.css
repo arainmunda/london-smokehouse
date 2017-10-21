@@ -1,0 +1,29 @@
+header > img {
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0; }
+
+header > nav {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  header > nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase; }
+    header > nav a:visited {
+      color: #fff; }
+    header > nav a:hover, header > nav a:focus {
+      color: rgba(255, 255, 255, 0.9); }
+  header > nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    header > nav ul:first-of-type {
+      margin-right: 190px; }
+    header > nav ul li {
+      list-style: none; }

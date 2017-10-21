@@ -1,5 +1,54 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
+/* Flexboxgrid overrides */
+.no-gutters {
+  margin-left: 0;
+  margin-right: 0; }
+  .no-gutters > [class^=col-] {
+    padding-left: 0;
+    padding-right: 0; }
+
+@media only screen and (max-width: 767px) {
+  .container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  .no-gutters-xs {
+    margin-left: 0;
+    margin-right: 0; }
+    .no-gutters-xs > [class^=col-xs] {
+      padding-left: 0;
+      padding-right: 0; }
+  .hide-xs {
+    display: none !important; } }
+
+@media only screen and (min-width: 48em) {
+  .no-gutters-sm {
+    margin-left: 0;
+    margin-right: 0; }
+    .no-gutters-sm > [class^=col-sm] {
+      padding-left: 0;
+      padding-right: 0; }
+  .hide-sm {
+    display: none !important; } }
+
+@media only screen and (min-width: 62em) {
+  .no-gutters-md {
+    margin-left: 0;
+    margin-right: 0; }
+    .no-gutters-md > [class^=col-md] {
+      padding-left: 0;
+      padding-right: 0; }
+  .hide-md {
+    display: none !important; } }
+
+@media only screen and (min-width: 75em) {
+  .no-gutters-lg {
+    margin-left: 0;
+    margin-right: 0; }
+    .no-gutters-lg > [class^=col-lg] {
+      padding-left: 0;
+      padding-right: 0; }
+  .hide-lg {
+    display: none !important; } }
+
+/* End of Flexboxgrid overrides */
+html {
+  background-color: #1a1a1a; }
