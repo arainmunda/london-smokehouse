@@ -50,5 +50,61 @@
     display: none !important; } }
 
 /* End of Flexboxgrid overrides */
+/* Import fonts */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url("fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url("fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Saira Extra Condensed';
+  src: url("fonts/SairaExtraCondensed-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Saira Extra Condensed Bold';
+  src: url("fonts/SairaExtraCondensed-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Saira Extra Condensed Light';
+  src: url("fonts/SairaExtraCondensed-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* End of import fonts */
 html {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 16px; }
+
+body {
+  background-color: #000;
+  padding: 16px; }
+
+main {
   background-color: #1a1a1a; }
+
+h1, h2 {
+  font-family: "Open Sans Bold", Helvetica, sans-serif;
+  margin-top: 0; }
+
+h3, h4 {
+  font-family: "Saira Extra Condensed Bold", sans-serif; }
+
+h1 {
+  font-size: 3em; }

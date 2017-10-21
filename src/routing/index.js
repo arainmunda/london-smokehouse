@@ -5,7 +5,7 @@ import Home from '../containers/Home'
 import Locations from '../containers/Locations'
 
 const Routing = () => ( 
-    <main className="container-fluid">
+    <main>
         <Header />
         <Route exact path="/" component={Home} />
         <Route path="/locations" component={Locations} />

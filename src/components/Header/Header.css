@@ -1,29 +1,42 @@
-header > img {
-  width: 150px;
-  margin: 0 auto;
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0; }
-
-header > nav {
-  margin-top: 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-  header > nav a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase; }
-    header > nav a:visited {
-      color: #fff; }
-    header > nav a:hover, header > nav a:focus {
-      color: rgba(255, 255, 255, 0.9); }
-  header > nav ul {
+header {
+  height: 168px;
+  padding: 25px 0;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.25); }
+  header > img {
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center; }
+  header > nav {
+    margin-top: -90px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; }
-    header > nav ul:first-of-type {
-      margin-right: 190px; }
-    header > nav ul li {
-      list-style: none; }
+    justify-content: center;
+    align-items: center; }
+    header > nav a {
+      font-family: "Saira Extra Condensed Light", sans-serif;
+      font-size: 1.3em;
+      letter-spacing: 2px;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase; }
+      header > nav a:visited {
+        color: #fff; }
+      header > nav a:hover, header > nav a:focus {
+        color: rgba(255, 255, 255, 0.8); }
+    header > nav ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      header > nav ul:first-of-type {
+        padding-right: 85px; }
+      header > nav ul:last-of-type {
+        padding-left: 85px; }
+      header > nav ul li {
+        width: 120px;
+        text-align: center;
+        list-style: none; }
