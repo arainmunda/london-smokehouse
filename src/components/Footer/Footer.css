@@ -1,0 +1,45 @@
+footer {
+  position: relative;
+  border-top: 2px solid #f3f2f2; }
+  footer h4 {
+    margin-bottom: 16px;
+    color: #f3f2f2; }
+  footer .connect, footer .links {
+    padding: 32px;
+    border-right: 1px solid #f3f2f2;
+    box-sizing: border-box; }
+  footer .connect .social li {
+    margin: 0 16px 0 0; }
+    footer .connect .social li a {
+      width: 32px;
+      padding-top: 32px;
+      font-size: 2em; }
+  footer .links {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    footer .links li {
+      padding: 0 16px;
+      list-style: none; }
+    footer .links a {
+      font-family: "Saira Extra Condensed Light", sans-serif;
+      font-size: 1.3em;
+      letter-spacing: 2px;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase; }
+      footer .links a:visited {
+        color: #fff; }
+      footer .links a:hover, footer .links a:focus {
+        color: rgba(255, 255, 255, 0.8); }
+  footer .copyright {
+    height: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    color: #f3f2f2;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center; }

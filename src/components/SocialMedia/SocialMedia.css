@@ -1,0 +1,24 @@
+.social {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  position: relative; }
+  .social li {
+    margin-left: 16px;
+    list-style: none; }
+    .social li a {
+      width: 24px;
+      height: 0;
+      padding-top: 24px;
+      font-size: 1.5em;
+      color: #f3f2f2;
+      display: block;
+      overflow: hidden; }
+      .social li a:visited {
+        color: #f3f2f2; }
+      .social li a:hover, .social li a:focus {
+        opacity: 0.8; }
+      .social li a::before {
+        position: absolute;
+        top: 0; }

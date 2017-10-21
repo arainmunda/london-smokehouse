@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import SocialMedia from '../SocialMedia'
 import './Header.css'
 import Logo from './logo.svg'
 
@@ -28,26 +29,3 @@ function Navigation ({ pages }) {
         </ul>
     )
 }
-
-function SocialMedia () {
-    return (
-        <ul className="social">
-            <li>
-                <a href="http://www.facebook.com/londonsmokehouse" className="fa fa-facebook-official" target="_blank">
-                    Facebook
-                </a>
-            </li>
-            <li>
-                <a href="http://www.instagram.com/londonsmokehouse" className="fa fa-instagram" target="_blank">
-                    Instagram
-                </a>
-            </li>
-            <li>
-                <a href="http://www.twitter.com/BarbecueLondon" className="fa fa-twitter" target="_blank">
-                    Twitter
-                </a>
-            </li>
-        </ul>
-    )
-}
-
