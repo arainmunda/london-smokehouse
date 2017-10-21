@@ -4,8 +4,14 @@ import SocialMedia from '../SocialMedia'
 import './Header.css'
 import Logo from './logo.svg'
 
-const firstLinks = ['home', 'about']
-const secondLinks = ['locations', 'contact']
+const firstLinks = [ 
+    { 'label': 'Home', 'url': '/' },
+    { 'label': 'About', 'url': '/about'}
+]
+const secondLinks = [ 
+    { 'label': 'Locations', 'url': '/locations' },
+    { 'label': 'Contact', 'url': '/contact'}
+]
 
 export default function Header () {
     return (
@@ -24,7 +30,7 @@ function Navigation ({ pages }) {
     return (
         <ul>
             {pages.map((page, i) => 
-                <li key={i}><Link to={`/${page}`}>{page}</Link></li>
+                <li key={i}><Link to={page.url}>{page.label}</Link></li>
             )}
         </ul>
     )
