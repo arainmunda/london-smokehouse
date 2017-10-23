@@ -3,7 +3,7 @@
 .hero {
     height: 70vh;
     margin: 0 auto;
-    padding-top: 150px;
+    padding: 150px 0 60px;
     background-image: url('brisket-hero.jpg');
     background-size: cover;
     background-position: center center;
@@ -34,7 +34,8 @@
 }
 
 .panels {
-    padding-top: 32px;
+    padding-top: 64px;
+    margin-bottom: 128px;
     h3 {
         color: $chalk-white;
         font-size: 3em;

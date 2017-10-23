@@ -150,3 +150,26 @@ h3 {
 h4 {
     font-size: 1.5em;
 }
+
+p {
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.cta {
+    font-family: $header-font-family;
+    padding: 8px;
+    display: block;
+    background-color: $gold;
+    color: $charcoal-bg;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    &:visited {
+        color: $charcoal-bg;
+    }
+    &:hover, &:focus {
+        opacity: 0.8;
+    }
+}

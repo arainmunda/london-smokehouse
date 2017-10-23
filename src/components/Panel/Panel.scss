@@ -1,0 +1,15 @@
+@import '../../variables';
+
+.panel {
+    img {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    h4 {
+        margin-bottom: 16px;
+        color: $chalk-white;
+    }
+    p {
+        color: $chalk-white;
+    }
+}

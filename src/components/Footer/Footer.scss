@@ -32,12 +32,12 @@ footer {
         justify-content: center;
         align-items: center;
         li {
-            padding: 0 16px;
+            padding: 0 8px;
             list-style: none;
         }
         a {
             font-family: $menu-font-stack;
-            font-size: 1.3em;
+            font-size: 1em;
             letter-spacing: 2px;
             color: $nav-link-color;
             text-decoration: none;
@@ -58,5 +58,8 @@ footer {
         font-size: 0.9em;
         display: flex;
         align-items: center;
+        p {
+            margin: 0;
+        }
     }
 }

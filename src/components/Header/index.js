@@ -6,11 +6,13 @@ import Logo from './logo.svg'
 
 const firstLinks = [ 
     { 'label': 'Home', 'url': '/' },
-    { 'label': 'About', 'url': '/about'}
+    { 'label': 'About', 'url': '/about'},
+    { 'label': 'Food', 'url': '/food' }
 ]
 const secondLinks = [ 
     { 'label': 'Locations', 'url': '/locations' },
-    { 'label': 'Contact', 'url': '/contact'}
+    { 'label': 'Contact', 'url': '/contact'},
+    { 'label': 'FAQs', 'url': '/faqs' }
 ]
 
 export default function Header () {

@@ -119,3 +119,22 @@ h3 {
 
 h4 {
   font-size: 1.5em; }
+
+p {
+  margin-top: 0;
+  line-height: 1.5; }
+
+.cta {
+  font-family: "Open Sans Bold", Helvetica, sans-serif;
+  padding: 8px;
+  display: block;
+  background-color: #cdad00;
+  color: #1a1a1a;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px; }
+  .cta:visited {
+    color: #1a1a1a; }
+  .cta:hover, .cta:focus {
+    opacity: 0.8; }

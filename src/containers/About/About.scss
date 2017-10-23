@@ -1,0 +1,24 @@
+@import '../../variables';
+
+.about {
+    .hero {
+        background-image: url('fire.jpg');
+    }
+    .story {
+        background-color: $chalk-white;
+        padding-top: 32px;
+        h3 {
+            margin-bottom: 32px;
+            color: $black;
+            font-size: 3em;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .info {
+            margin-bottom: 128px;
+            color: $black;
+            font-size: 1.5em;
+            line-height: 2
+        }
+    }
+}

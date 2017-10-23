@@ -1,0 +1,17 @@
+.about .hero {
+  background-image: url("fire.jpg"); }
+
+.about .story {
+  background-color: #f3f2f2;
+  padding-top: 32px; }
+  .about .story h3 {
+    margin-bottom: 32px;
+    color: #000;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 2px; }
+  .about .story .info {
+    margin-bottom: 128px;
+    color: #000;
+    font-size: 1.5em;
+    line-height: 2; }

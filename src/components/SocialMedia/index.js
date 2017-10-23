@@ -19,6 +19,11 @@ export default function SocialMedia () {
                     Twitter
                 </a>
             </li>
+            <li>
+                <a href="mailto:info@londonsmokehouse.uk" className="fa fa-envelope">
+                    Twitter
+                </a>
+            </li>
         </ul>
     )
 }

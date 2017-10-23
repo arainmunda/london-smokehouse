@@ -18,7 +18,7 @@
       .social li a:visited {
         color: #f3f2f2; }
       .social li a:hover, .social li a:focus {
-        opacity: 0.8; }
+        color: #cdad00; }
       .social li a::before {
         position: absolute;
         top: 0; }

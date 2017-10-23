@@ -17,8 +17,10 @@ export default function Footer () {
                     <ul className="links">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
+                        <li><Link to="/food">Food</Link></li>
                         <li><Link to="/locations">Locations</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/faqs">FAQs</Link></li>
                     </ul>
                 </div>
                 <div className="col-xs-12 col-sm-4">
