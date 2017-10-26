@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import classNames from 'classnames/bind'
 import SocialMedia from '../SocialMedia'
 import './Header.css'
 import Logo from './logo.svg'
@@ -15,17 +16,33 @@ const secondLinks = [
     { 'label': 'FAQs', 'url': '/faqs' }
 ]
 
-export default function Header () {
-    return (
-        <header>
-            <img src={Logo} alt="London Smokehouse Ltd Logo" />
-            <SocialMedia />
-            <nav>
-                <Navigation pages={firstLinks} />
-                <Navigation pages={secondLinks} />
-            </nav>
-        </header>
-    )
+export default class Header extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+          openMenu: false
+        }
+        this.toggleMenu = this.toggleMenu.bind(this)
+    }
+
+    toggleMenu () {
+        this.setState({openMenu: !this.state.openMenu})
+    }
+
+    render () {
+        return (
+            <header>
+                <img src={Logo} alt="London Smokehouse Ltd Logo" />
+                <SocialMedia />
+                <div className={classNames(['fa hide-sm ',{ 'fa-bars': !this.state.openMenu },{ 'fa-times': this.state.openMenu }])} onClick={this.toggleMenu}>
+                </div>
+                <nav className={classNames([{'hide-xs': !this.state.openMenu}])}>
+                    <Navigation pages={firstLinks} />
+                    <Navigation pages={secondLinks} />
+                </nav>
+            </header>
+        )
+    }
 }
 
 function Navigation ({ pages }) {

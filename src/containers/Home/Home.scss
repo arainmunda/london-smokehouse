@@ -3,7 +3,7 @@
 .hero {
     height: 70vh;
     margin: 0 auto;
-    padding: 150px 0 60px;
+    padding: 102px 0;
     background-image: url('brisket-hero.jpg');
     background-size: cover;
     background-position: center center;
@@ -15,11 +15,11 @@
         color: $chalk-white;
     }
     h1 {
-        font-size: 5em;
+        font-size: 2em;
         margin: 0 8px;
     }
     h2 {
-        font-size: 2em;
+        font-size: 1.2em;
     }
     a {
         color: $chalk-white;
@@ -35,11 +35,30 @@
 
 .panels {
     padding-top: 64px;
-    margin-bottom: 128px;
+    margin-bottom: 64px;
+    .panel {
+        padding-bottom: 48px;
+    }
     h3 {
         color: $chalk-white;
         font-size: 3em;
         text-align: center;
         letter-spacing: 2px;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    .hero {
+        height: 70vh;
+        padding: 150px 0 60px;
+        h1 {
+            font-size: 5em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+    }
+    .panels {
+        margin-bottom: 128px;
     }
 }

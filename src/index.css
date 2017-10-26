@@ -94,7 +94,7 @@ html {
 
 body {
   background-color: #000;
-  padding: 16px; }
+  padding: 8px; }
 
 main {
   background-color: #1a1a1a;
@@ -138,3 +138,7 @@ p {
     color: #1a1a1a; }
   .cta:hover, .cta:focus {
     opacity: 0.8; }
+
+@media only screen and (min-width: 48em) {
+  body {
+    padding: 16px; } }

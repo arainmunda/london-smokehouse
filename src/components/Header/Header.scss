@@ -1,27 +1,33 @@
 @import '../../variables';
 
 header {
-    height: 168px;
-    margin: 0 10%;
-    padding: 25px 0;
+    margin: 0 1rem;
+    padding: 16px 0;
     text-shadow: 0 0 5px rgba(0,0,0,.25);
     position: relative;
     > img {
         width: 120px;
-        margin: 0 auto;
+        margin: 0 auto 24px;
         display: block;
         justify-content: center;
         align-items: center;
     }
     .social {
         position: absolute;
-        top: 8px;
+        top: 210px;
         right: 0;
     }
+    > .fa {
+        height: 32px;
+        width: 32px;
+        color: $chalk-white;
+        font-size: 2em;
+    }
     > nav {
-        margin-top: -90px;
+        background: $charcoal;
+        margin-top: 32px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         a {
@@ -39,22 +45,59 @@ header {
             }
         }
         ul {
+            width: 100%;
             margin: 0;
             padding: 0;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            &:first-of-type {
-                padding-right: 85px;
-            }
-            &:last-of-type {
-                padding-left: 85px;
-            }
             li {
-                width: 120px;
+                width: 100%;
+                padding: 0;
                 text-align: center;
                 list-style: none;
+                a {
+                    padding: 8px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 48em) {
+    header {
+        height: 168px;
+        margin: 0 10%;
+        padding: 24px 0;
+        .social {
+            top: 8px;
+        }
+        > img {
+            margin: 0 auto;
+        }
+        > nav {
+            background: transparent;
+            margin-top: -90px;
+            flex-direction: row;
+            ul {
+                width: auto;
+                flex-direction: row;
+                &:first-of-type {
+                    padding-right: 85px;
+                }
+                &:last-of-type {
+                    padding-left: 85px;
+                }
+                li {
+                    width: 120px;
+                    padding: 0;
+                    a {
+                        padding: 0;
+                    }
+                }
             }
         }
     }
