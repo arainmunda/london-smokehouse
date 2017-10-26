@@ -31,11 +31,11 @@ export default class Header extends Component {
 
     render () {
         return (
-            <header>
+            <header className="header">
                 <img src={Logo} alt="London Smokehouse Ltd Logo" />
-                <SocialMedia />
                 <div className={classNames(['fa hide-sm ',{ 'fa-bars': !this.state.openMenu },{ 'fa-times': this.state.openMenu }])} onClick={this.toggleMenu}>
                 </div>
+                <SocialMedia />
                 <nav className={classNames([{'hide-xs': !this.state.openMenu}])}>
                     <Navigation pages={firstLinks} />
                     <Navigation pages={secondLinks} />

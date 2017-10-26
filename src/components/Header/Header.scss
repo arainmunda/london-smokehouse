@@ -16,6 +16,7 @@ header {
         position: absolute;
         top: 210px;
         right: 0;
+        display: none;
     }
     > .fa {
         height: 32px;
@@ -74,6 +75,7 @@ header {
         padding: 24px 0;
         .social {
             top: 8px;
+            display: flex;
         }
         > img {
             margin: 0 auto;

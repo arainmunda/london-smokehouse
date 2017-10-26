@@ -1,0 +1,25 @@
+@import '../../variables';
+
+.food {
+    padding-top: 32px;
+    color: $chalk-white;
+    h1, h2 {
+        color: $chalk-white;
+        font-size: 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .header-border {
+            flex-grow: 1;
+            border-top: solid 1px $gold;
+        }
+        .title {
+            padding: 0 16px;
+        }
+    }
+    h3 {
+        font-family: $menu-font-stack;
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+}

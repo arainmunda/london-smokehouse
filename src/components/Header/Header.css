@@ -12,7 +12,8 @@ header {
   header .social {
     position: absolute;
     top: 210px;
-    right: 0; }
+    right: 0;
+    display: none; }
   header > .fa {
     height: 32px;
     width: 32px;
@@ -59,7 +60,8 @@ header {
     margin: 0 10%;
     padding: 24px 0; }
     header .social {
-      top: 8px; }
+      top: 8px;
+      display: flex; }
     header > img {
       margin: 0 auto; }
     header > nav {

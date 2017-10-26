@@ -1,0 +1,18 @@
+.food {
+  padding-top: 32px;
+  color: #f3f2f2; }
+  .food h1, .food h2 {
+    color: #f3f2f2;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .food h1 .header-border, .food h2 .header-border {
+      flex-grow: 1;
+      border-top: solid 1px #cdad00; }
+    .food h1 .title, .food h2 .title {
+      padding: 0 16px; }
+  .food h3 {
+    font-family: "Saira Extra Condensed Light", sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase; }
