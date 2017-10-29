@@ -9,7 +9,6 @@ footer {
     }
     .connect, .links {
         padding: 32px;
-        border-right: 1px solid $chalk-white;
         box-sizing: border-box;
     }
     .connect {
@@ -60,6 +59,19 @@ footer {
         align-items: center;
         p {
             margin: 0;
+        }
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    footer {
+        > .row {
+            > div {
+                border-left: 1px solid $chalk-white;
+                &:first-of-type {
+                    border-left: none;
+                }
+            }
         }
     }
 }

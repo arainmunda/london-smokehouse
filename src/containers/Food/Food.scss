@@ -1,9 +1,10 @@
 @import '../../variables';
 
-.food {
+.content-page {
     padding-top: 32px;
     color: $chalk-white;
     h1, h2 {
+        margin-bottom: 32px;
         color: $chalk-white;
         font-size: 2em;
         display: flex;
@@ -25,7 +26,22 @@
     img {
         width: 100%;
     }
+    a {
+        color: $gold;
+        &:visited {
+            color: $gold;
+        }
+        &:hover, &:focus {
+            opacity: 0.8;
+        }
+    }
     > .row {
         margin-bottom: 32px;
+    }
+    .how-to-eat {
+        font-size: 1.3em;
+        font-family: $menu-font-stack;
+        text-transform: uppercase;
+        color: $gold;
     }
 }

@@ -1,0 +1,25 @@
+.locations > .row > .col-xs-12 {
+  margin-bottom: 32px; }
+
+.locations .video {
+  height: 0;
+  padding-bottom: 66.25%;
+  position: relative; }
+  .locations .video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    top: 0;
+    position: absolute; }
+
+.locations img {
+  width: 100%;
+  height: 100%; }
+
+@media only screen and (min-width: 48em) {
+  .locations > .row {
+    margin-bottom: 64px; }
+    .locations > .row > .col-xs-12 {
+      margin-bottom: 0; }
+  .locations .video {
+    padding-bottom: 25.25%; } }
