@@ -1,0 +1,16 @@
+@import '../../variables';
+
+.faqs {
+    h3 {
+        color: $gold;
+    }
+    p {
+        margin-bottom: 32px;
+    }
+    ul {
+        margin-bottom: 32px;
+    }
+    li {
+        margin-bottom: 16px;
+    }
+} 

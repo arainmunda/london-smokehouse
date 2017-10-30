@@ -7,21 +7,28 @@ footer {
   footer .connect, footer .links {
     padding: 32px;
     box-sizing: border-box; }
-  footer .connect .social li {
-    margin: 0 16px 0 0; }
-    footer .connect .social li a {
-      width: 32px;
-      padding-top: 32px;
-      font-size: 2em; }
+  footer .connect {
+    text-align: center; }
+    footer .connect .social {
+      justify-content: center; }
+      footer .connect .social li {
+        margin: 0 16px 0 0; }
+        footer .connect .social li a {
+          width: 32px;
+          padding-top: 32px;
+          font-size: 2em; }
   footer .links {
     height: 100%;
     margin: 0;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    border-top: solid 1px #cdad00;
+    border-bottom: solid 1px #cdad00; }
     footer .links li {
-      padding: 0 8px;
+      padding: 8px 8px;
       list-style: none; }
     footer .links a {
       font-family: "Saira Extra Condensed Light", sans-serif;
@@ -41,7 +48,8 @@ footer {
     color: #f3f2f2;
     font-size: 0.9em;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    text-align: center; }
     footer .copyright p {
       margin: 0; }
 
@@ -49,4 +57,15 @@ footer {
   footer > .row > div {
     border-left: 1px solid #f3f2f2; }
     footer > .row > div:first-of-type {
-      border-left: none; } }
+      border-left: none; }
+  footer .connect h4 {
+    text-align: left; }
+  footer .connect .social {
+    justify-content: flex-start; }
+  footer .links {
+    border: none;
+    flex-wrap: nowrap; }
+    footer .links li {
+      padding: 0 8px; }
+  footer .copyright {
+    text-align: left; } }

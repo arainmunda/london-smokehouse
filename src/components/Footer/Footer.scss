@@ -12,7 +12,9 @@ footer {
         box-sizing: border-box;
     }
     .connect {
+        text-align: center;
         .social {
+            justify-content: center;
             li {
                 margin: 0 16px 0 0;
                 a {
@@ -28,10 +30,13 @@ footer {
         margin: 0;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        border-top: solid 1px $gold;
+        border-bottom: solid 1px $gold;
         li {
-            padding: 0 8px;
+            padding: 8px 8px;
             list-style: none;
         }
         a {
@@ -57,6 +62,7 @@ footer {
         font-size: 0.9em;
         display: flex;
         align-items: center;
+        text-align: center;
         p {
             margin: 0;
         }
@@ -72,6 +78,24 @@ footer {
                     border-left: none;
                 }
             }
+        }
+        .connect {
+            h4 {
+                text-align: left;
+            }
+            .social {
+                justify-content: flex-start;
+            }
+        }
+        .links {
+            border: none;
+            flex-wrap: nowrap;
+            li {
+                padding: 0 8px;
+            }
+        }
+        .copyright {
+            text-align: left;
         }
     }
 }
