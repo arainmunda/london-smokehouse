@@ -19,6 +19,10 @@
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
   },
+  "engines": {
+    "node": "6",
+    "npm": "*"
+  },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
