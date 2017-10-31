@@ -20,7 +20,7 @@
     "redux-thunk": "^2.2.0"
   },
   "engines": {
-    "node": "6",
+    "node": "8",
     "npm": "*"
   },
   "scripts": {
