@@ -20,8 +20,8 @@ export default function Locations () {
                         020 7426 5103
                     </p>
                     <p>
-                        November 20th, 22nd, 27th, 29th<br />
-                        December 1st, 2nd, 8th, 22nd, 29th, 30th
+                        November 20th, 22nd, 27th, 29th 2017<br />
+                        December 1st, 2nd, 8th, 22nd, 29th, 30th 2017
                     </p>
                 </div>
                 <div className="col-xs-12 col-sm-4">
@@ -39,7 +39,7 @@ export default function Locations () {
                         <a href="https://www.muslimlifestyleshow.com">www.muslimlifestyleshow.com</a><br />
                         <a href="mailto:info@muslimlifestyleshow.com">info@muslimlifestyleshow.com</a>
                     </p>
-                    <p>April 21st, 22nd</p>
+                    <p>April 21st, 22nd 2018</p>
                 </div>
                 <div className="col-xs-12 col-sm-4">
                 <img src={Olympia} alt="Olympia London" />
