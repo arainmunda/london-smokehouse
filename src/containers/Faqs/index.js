@@ -12,9 +12,9 @@ export default function Faqs () {
             
             <h3>Do you have any allergen information?</h3>
             <ul>
-                <li>Our foods may contain a trace of nuts.</li>
-                <li>Our coleslaw, mac & cheese and turkey all contain lactose.</li>
-                <li>Our duck contains soya.</li>
+                <li>Our foods may contain a trace of nuts</li>
+                <li>Our coleslaw, mac & cheese and turkey all contain lactose</li>
+                <li>Our duck contains soya</li>
                 <li>Our cornbread and mac & cheese contains gluten</li>
                 <li>Always check with us and explain your dietary and allergen requirements before purchasing</li>
             </ul>
@@ -26,10 +26,10 @@ export default function Faqs () {
             <p>YES, all of our meat is halal, including our sausage which is definitely not made of pork (they're made of a blend of beef, lamb and veal depending on availability). Our beer can chicken uses the non-alcholic variation.</p>
 
             <h3>Do you have any nutritional information</h3>
-            <p>Because of the nature of how we make our food, using seasonal vegetables, different breeds of meat, with different fat content, it's incredibly difficult for us to supply this information. If you're having red meat at London Smokehouse, treat us like a cheat day.</p>
+            <p>Because of the nature of how we make our food, using seasonal vegetables, different breeds of animal, with different fat content, it's incredibly difficult for us to supply this information. If you're having red meat at London Smokehouse, treat us like a cheat day.</p>
 
             <h3>I have leftovers, can I eat them?</h3>
-            <p>Our food is cooked fresh on the day, so if you refridgerate your meal from London Smokehouse, then it should keep for a few days. Cold smoking does preserve food, but we cold smoke so don't recommend keeping your food too long.</p>
+            <p>Our food is cooked fresh, so if you refridgerate your meal from London Smokehouse, then it should keep for a couple of days. Cold smoking can preserve food for weeks, but we hot smoke and so don't recommend keeping it too long.</p>
         </div>
     )
 }

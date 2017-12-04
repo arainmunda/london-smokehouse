@@ -25,6 +25,12 @@ export default class Header extends Component {
         this.toggleMenu = this.toggleMenu.bind(this)
     }
 
+    componentDidUpdate (prevProps) {
+        if (this.props.location !== prevProps.location) {
+            this.setState({openMenu: false})
+        }
+    }
+
     toggleMenu () {
         this.setState({openMenu: !this.state.openMenu})
     }
