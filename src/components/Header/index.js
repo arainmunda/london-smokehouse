@@ -8,7 +8,8 @@ import Logo from './logo.svg'
 const firstLinks = [ 
     { 'label': 'Home', 'url': '/' },
     { 'label': 'About', 'url': '/about'},
-    { 'label': 'Food', 'url': '/food' }
+    { 'label': 'Food', 'url': '/food' },
+    { 'label': 'Catering', 'url': '/catering' }
 ]
 const secondLinks = [ 
     { 'label': 'Locations', 'url': '/locations' },
