@@ -92,16 +92,12 @@ html {
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 16px; }
 
-body {
-  background-color: #000;
-  padding: 8px; }
-
 main {
   background-color: #1a1a1a;
   position: relative; }
 
 h1, h2 {
-  font-family: "Open Sans Bold", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   text-decoration: uppercase;
   margin-top: 0; }
 
@@ -125,7 +121,7 @@ p {
   line-height: 1.5; }
 
 .cta {
-  font-family: "Open Sans Bold", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   padding: 8px;
   display: block;
   background-color: #cdad00;
@@ -138,7 +134,3 @@ p {
     color: #1a1a1a; }
   .cta:hover, .cta:focus {
     opacity: 0.8; }
-
-@media only screen and (min-width: 48em) {
-  body {
-    padding: 16px; } }

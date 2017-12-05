@@ -3,15 +3,16 @@ import { Link } from 'react-router-dom'
 import classNames from 'classnames/bind'
 import SocialMedia from '../SocialMedia'
 import './Header.css'
-import Logo from './logo.svg'
+import Logo from './logo.png'
 
-const firstLinks = [ 
+const firstLinks = [
     { 'label': 'Home', 'url': '/' },
     { 'label': 'About', 'url': '/about'},
     { 'label': 'Food', 'url': '/food' },
     { 'label': 'Catering', 'url': '/catering' }
 ]
-const secondLinks = [ 
+const secondLinks = [
+    { 'label': 'Events', 'url': '/events' },
     { 'label': 'Locations', 'url': '/locations' },
     { 'label': 'Contact', 'url': '/contact'},
     { 'label': 'FAQs', 'url': '/faqs' }
@@ -21,7 +22,7 @@ export default class Header extends Component {
     constructor(props) {
         super(props)
         this.state = {
-          openMenu: false
+            openMenu: false
         }
         this.toggleMenu = this.toggleMenu.bind(this)
     }
