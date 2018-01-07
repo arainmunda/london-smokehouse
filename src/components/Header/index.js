@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import classNames from 'classnames/bind'
 import SocialMedia from '../SocialMedia'
 import './Header.css'
-import Logo from './logo.png'
+import Logo from './logo.svg'
 
 const firstLinks = [
     { 'label': 'Home', 'url': '/' },
