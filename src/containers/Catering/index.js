@@ -16,10 +16,10 @@ export default function Catering () {
             <div className="content-page container-fluid">
                 <h2>
                     <span className="header-border"></span>
-                    <span className="title">About</span>
+                    <span className="title">Catering</span>
                     <span className="header-border"></span>
                 </h2>
-                <p>Find below our product list and pricing for home delivery 2018. Please give us as much notice as possible and detail exactly what you'd like. Email all orders to <a href="mailto:info@londonsmokehouse.uk">info@londonsmokehouse.uk</a>.</p>
+                <p>Find below our product list and pricing for home delivery 2018. Please give us as much notice as possible and detail exactly what you'd like. Email orders to <a href="mailto:info@londonsmokehouse.uk">info@londonsmokehouse.uk</a>.</p>
                 <div className="row">
                     <div className="col-xs-12 col-sm-4">
                         <img src={Brisket} alt="Beef Brisket" />
@@ -77,7 +77,7 @@ export default function Catering () {
                         <h3>Whole Beer Can Chicken</h3>
                         <p>£15</p>
                         <h3>Chicken Wings</h3>
-                        <p>£20 per kilo</p>
+                        <p>£10 per kg</p>
                     </div>
                 </div>
             </div>

@@ -12,7 +12,7 @@ const firstLinks = [
     { 'label': 'Catering', 'url': '/catering' }
 ]
 const secondLinks = [
-    { 'label': 'Events', 'url': '/events' },
+    { 'label': 'Aqiqah', 'url': '/aqiqah' },
     { 'label': 'Locations', 'url': '/locations' },
     { 'label': 'Contact', 'url': '/contact'},
     { 'label': 'FAQs', 'url': '/faqs' }

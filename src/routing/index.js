@@ -6,7 +6,7 @@ import Home from '../containers/Home'
 import About from '../containers/About'
 import Food from '../containers/Food'
 import Catering from '../containers/Catering'
-import Events from '../containers/Events'
+import Aqiqah from '../containers/Aqiqah'
 import Locations from '../containers/Locations'
 import Contact from '../containers/Contact'
 import Faqs from '../containers/Faqs'
@@ -20,7 +20,7 @@ class Routing extends Component {
                 <Route path="/about" component={About} />
                 <Route path="/food" component={Food} />
                 <Route path="/catering" component={Catering} />
-                <Route path="/events" component={Events} />
+                <Route path="/aqiqah" component={Aqiqah} />
                 <Route path="/locations" component={Locations} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/faqs" component={Faqs} />
