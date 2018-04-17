@@ -6,7 +6,7 @@ import Leg from './leg.jpg'
 import Shank from './shank.jpg'
 import './Aqiqah.css'
 
-export default function Events () {
+export default function Aqiqah () {
     return (
         <div className="aqiqah">
             <div className="hero">
@@ -28,7 +28,7 @@ export default function Events () {
                                 When we prepare our whole lamb, we break it down into different sections so we can concentrate on cooking the 
                                 tough parts low and slow, and the tender parts seared at a high heat, making best use of the animal.
                                 Find below a breakdown of the sections of lamb and the different ways we can cook it.
-                                Our freerange and locally reared lambs tend to weight between 22kg - 25kg and the cost is £13 per kg (£286 - £325).
+                                Our freerange and locally reared lambs tend to weight between 20kg - 25kg and the cost is £15 per kg (£300 - £375).
                                 Sauces and condaments will be charged separately. Enquire at <a href="mailto:info@londonsmokehouse.uk">info@londonsmokehouse.uk</a>.
                             </p>
                         </div>
@@ -121,14 +121,11 @@ export default function Events () {
                     <div className="col-xs-12 col-sm-8">
                         <h3>Other parts</h3>
                         <h4>Bones</h4>
-                        <p>We will be using the bones to make up a lamb barbecue sauce that will be used for cooking all of the other parts of the animal.</p>
+                        <p>We will be using spare bones to make up a lamb barbecue sauce that will be used for cooking all of the other parts of the animal.</p>
                         <h4>Minced Trim</h4>
                         <p>With the trim we mince it down into burger or kofte portions depending on your preference.</p>
                         <h4>Neck</h4>
-                        <p>
-                            Seeing as lamb neck is generally quite a tough unsavoury cut, there is only one way we prepare them.
-                            We slice them into steak like portions and smoke them at a low temperature for 5-6 hours, till incredibly tender.
-                        </p>
+                        <p>We suggest that you purchase a side of our barbecue pit beans, and then we can use the lamb neck in their as it gives them an incredibly rich meaty flavour.</p>
                     </div>
                 </div>
             </div>

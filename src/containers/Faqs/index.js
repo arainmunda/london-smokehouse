@@ -13,14 +13,14 @@ export default function Faqs () {
             <h3>Do you have any allergen information?</h3>
             <ul>
                 <li>Our foods may contain a trace of nuts</li>
-                <li>Our coleslaw, mac & cheese and turkey all contain lactose</li>
-                <li>Our duck contains soya</li>
-                <li>Our cornbread and mac & cheese contains gluten</li>
+                <li>Our coleslaw, mac & cheese and turkey are not suitable to those who are lactose intolerant</li>
+                <li>Our duck is basted in soya</li>
+                <li>Our cornbread and mac & cheese is not suitable to those who are gluten intolerant</li>
                 <li>Always check with us and explain your dietary and allergen requirements before purchasing</li>
             </ul>
 
             <h3>Is your food suitable for vegetarians?</h3>
-            <p>Erm... probably not. We are working on a vegetarian recipes, but they're not quite there yet.</p>
+            <p>Erm... probably not. We ocassionally have a vegan pulled jackfruit burger, but it's subject to availability and sells out pretty fast.</p>
 
             <h3>Is your meat halal?</h3>
             <p>YES, all of our meat is halal, including our sausage which is definitely not made of pork (they're made of a blend of beef, lamb and veal depending on availability). Our beer can chicken uses the non-alcholic variation.</p>

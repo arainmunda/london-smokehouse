@@ -25,10 +25,12 @@ export default function Catering () {
                         <img src={Brisket} alt="Beef Brisket" />
                     </div>
                     <div className="col-xs-12 col-sm-8">
+                        <h3>Wagyu Brisket</h3>
+                        <p>£80 per kilo</p>
+                        <h3>USDA Brisket</h3>
+                        <p>£25 per kilo</p>
                         <h3>Prime Aberdeen Angus Brisket</h3>
-                        <p>£150</p>
-                        <h3>Australian Brisket</h3>
-                        <p>£100</p>
+                        <p>£25 per kilo</p>
                     </div>
                 </div>
                 <div className="row">
@@ -48,7 +50,7 @@ export default function Catering () {
                     </div>
                     <div className="col-xs-12 col-sm-8">
                         <h3>Whole Lamb</h3>
-                        <p>£12 per kg (22-25kg)</p>
+                        <p>£15 per kg</p>
                         <h3>Lamb Leg</h3>
                         <p>£70</p>
                         <h3>Lamb Shoulder</h3>
@@ -61,11 +63,9 @@ export default function Catering () {
                     </div>
                     <div className="col-xs-12 col-sm-8">
                         <h3>Whole Turkey</h3>
-                        <p>£100</p>
+                        <p>£20 per kilo</p>
                         <h3>Turkey Crown</h3>
-                        <p>£50</p>
-                        <h3>Half Turkey Crown</h3>
-                        <p>£30</p>
+                        <p>£20 per kilo</p>
                     </div>
                 </div>
                
@@ -75,7 +75,7 @@ export default function Catering () {
                     </div>
                     <div className="col-xs-12 col-sm-8">
                         <h3>Whole Beer Can Chicken</h3>
-                        <p>£15</p>
+                        <p>£20</p>
                         <h3>Chicken Wings</h3>
                         <p>£10 per kg</p>
                     </div>
