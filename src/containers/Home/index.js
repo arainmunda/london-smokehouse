@@ -34,8 +34,8 @@ export default function Home () {
     return (
         <div className="home">
             <div className="hero">
-                <h1>The best barbecue in London</h1>
-                <h2><Link to="/locations">Find out where we'll be next »</Link></h2>
+                <h1>Home delivery this Eid</h1>
+                <h2><Link to="/catering">View our food and prices »</Link></h2>
             </div>
             <div className="panels container-fluid">
                 <div className="row">

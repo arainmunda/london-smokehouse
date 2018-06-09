@@ -19,18 +19,18 @@ export default function Catering () {
                     <span className="title">Catering</span>
                     <span className="header-border"></span>
                 </h2>
-                <p>Find below our product list and pricing for home delivery 2018. Please give us as much notice as possible and detail exactly what you'd like. Email orders to <a href="mailto:info@londonsmokehouse.uk">info@londonsmokehouse.uk</a>.</p>
+                <p>Find below our product list and pricing for home delivery 2018. Please give us as much notice as possible and detail exactly what you'd like. Email orders to <a href="mailto:info@londonsmokehouse.uk">info@londonsmokehouse.uk</a>. Please note, weights are based on the raw meat weight.</p>
                 <div className="row">
                     <div className="col-xs-12 col-sm-4">
                         <img src={Brisket} alt="Beef Brisket" />
                     </div>
                     <div className="col-xs-12 col-sm-8">
                         <h3>Wagyu Brisket</h3>
-                        <p>£80 per kilo</p>
-                        <h3>USDA Brisket</h3>
-                        <p>£25 per kilo</p>
+                        <p>£55/kg</p>
                         <h3>Prime Aberdeen Angus Brisket</h3>
-                        <p>£25 per kilo</p>
+                        <p>£35/kg</p>
+                        <h3>USDA Brisket</h3>
+                        <p>£25/kg</p>
                     </div>
                 </div>
                 <div className="row">
@@ -50,7 +50,7 @@ export default function Catering () {
                     </div>
                     <div className="col-xs-12 col-sm-8">
                         <h3>Whole Lamb</h3>
-                        <p>£15 per kg</p>
+                        <p>£15/kg</p>
                         <h3>Lamb Leg</h3>
                         <p>£70</p>
                         <h3>Lamb Shoulder</h3>
@@ -63,9 +63,9 @@ export default function Catering () {
                     </div>
                     <div className="col-xs-12 col-sm-8">
                         <h3>Whole Turkey</h3>
-                        <p>£20 per kilo</p>
+                        <p>£20/kg</p>
                         <h3>Turkey Crown</h3>
-                        <p>£20 per kilo</p>
+                        <p>£20/kg</p>
                     </div>
                 </div>
                
@@ -77,7 +77,7 @@ export default function Catering () {
                         <h3>Whole Beer Can Chicken</h3>
                         <p>£20</p>
                         <h3>Chicken Wings</h3>
-                        <p>£10 per kg</p>
+                        <p>£10/kg</p>
                     </div>
                 </div>
             </div>
