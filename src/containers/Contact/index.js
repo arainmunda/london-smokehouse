@@ -15,7 +15,7 @@ export default function Contact () {
                     <p>We are available for bookings at food markets, restaurant pop ups, events, birthday parties and any other celebrations.</p>
                     <p>
                         <a href="mailto:info@londonsmokehouse.uk">info@londonsmokehouse.uk</a><br />
-                        020 7426 5103
+                        020 3893 2224
                     </p>
                 </div>
                 <div className="col-xs-12 col-sm-4">
